@@ -16,4 +16,4 @@ let status = false;
 //object 
 
 console.log(typeof "name");
-console.log(typeof(status));
+console.log(typeof(status));    
