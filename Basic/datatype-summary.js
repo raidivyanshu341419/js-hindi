@@ -35,3 +35,29 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// ==========================================================
+
+// Stack and Heap : There are two types of memory in any programming that is stack and heap 
+
+//Primitive (Stack )  and Primitive (Heap)
+
+var myDetails = "Divyanshu Rai";
+var anotherDetails = myDetails;
+var anotherDetails = "Divyanshu";
+
+console.log(anotherDetails);
+console.log(myDetails);
+
+var userOne ={
+    name: "Rai",
+    userEmail: "rai@google.com"
+}
+
+var userTwo = userOne;
+
+userTwo.userEmail ="rai@gmail.com";
+
+console.log(userOne.userEmail);
+console.log(userTwo.userEmail);
